@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego Store", "Lego Store\Lego Store.csproj", "{00475C8E-40A3-49C0-A95D-B8EBEA074A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoRepo", "LegoRepo\LegoRepo.csproj", "{ED24E364-C77E-4132-8408-56BC572C476E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00475C8E-40A3-49C0-A95D-B8EBEA074A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00475C8E-40A3-49C0-A95D-B8EBEA074A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00475C8E-40A3-49C0-A95D-B8EBEA074A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00475C8E-40A3-49C0-A95D-B8EBEA074A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED24E364-C77E-4132-8408-56BC572C476E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED24E364-C77E-4132-8408-56BC572C476E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED24E364-C77E-4132-8408-56BC572C476E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED24E364-C77E-4132-8408-56BC572C476E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

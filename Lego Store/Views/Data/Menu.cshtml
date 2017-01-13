@@ -1,0 +1,10 @@
+﻿@using LegoRepo
+@model List<LegoRepo.Kategori>
+    
+
+
+@foreach (Kategori kat in Model)
+{
+    <a class="NLS" href="/Produkt/Produktliste/@kat.ID">@kat.Navn - </a>
+   
+}

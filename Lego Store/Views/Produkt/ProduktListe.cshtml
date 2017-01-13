@@ -1,0 +1,44 @@
+﻿@using LegoRepo
+@model LegoRepo.ProduktListVM
+@{
+    ViewBag.Title = "ProduktListe";
+}
+
+<h2>@Model.KategoriNavn</h2>
+
+@if (Model.Produkter.Count > 0)
+{<table class="table table-hover">
+
+
+        <thead>
+            <tr>
+                <th>ProduktNavn</th>
+                <th>Pris</th>
+                <th>Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var produkt in Model.Produkter)
+            {
+
+            <tr class="active">
+                <td>
+                    @produkt.Navn
+                </td>
+                <td>
+                     @produkt.Pris
+                </td>
+                <td>
+                    <a href="/Produkt/ProduktKort/@produkt.ID">Se mere</a>
+                </td>
+            </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+else
+{
+    <h2>der er ingen  produkter i denne kategori</h2>
+}

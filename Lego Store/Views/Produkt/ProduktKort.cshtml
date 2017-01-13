@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "ProduktKort";
+}
+
+
+
+@using System.Security.Cryptography
+@using LegoRepo
+@model Produkt
+  
+
+<table>
+    <tr>
+        <td>
+
+            <h2>@Model.Navn</h2>
+            <br/>
+            @Model.Beskrivelse
+        </td>
+
+        <td>
+            
+            <br/>
+            <br/>
+            <img style="border: solid 1px;" src="/Content/Images/@Model.Billede" width="300"/>
+            <br/>
+            <br/>
+
+            <p class="pris"> @Model.Pris DDK,-</p>
+
+
+        </td>
+    </tr>
+</table>
