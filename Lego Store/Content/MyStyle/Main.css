@@ -1,5 +1,10 @@
-﻿.border {
-  border: 1px solid; }
+﻿body {
+  background-image: url("../Images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.border {
+  margin-top: 50px; }
 
 .mainbox {
   height: 500px; }
@@ -9,7 +14,7 @@
 
 .NLS {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px; }
 
 a:hover {
@@ -23,4 +28,8 @@ a:hover {
 a:visited {
   text-decoration: none;
   font-size: 20px; }
+
+.opaci {
+  background-color: rgba(128, 128, 128, 0.4);
+  border: 1px solid; }
 

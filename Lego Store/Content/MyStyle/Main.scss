@@ -1,9 +1,12 @@
 ﻿body {
+background-image: url('../Images/background.jpg');
+background-repeat:no-repeat;
+background-size:cover;
 }
 
 .border
 {
-    border:1px solid;
+  margin-top:50px;
 }
 
 .mainbox
@@ -19,7 +22,7 @@
 
 .NLS{
     text-decoration:none;
-    color:black;
+    color:white;
     font-size:20px;
    
 
@@ -38,3 +41,9 @@
 
     font-size:20px;
 }
+
+ .opaci{
+    background-color:rgba(128, 128, 128,0.4);
+    border:1px solid;
+    
+ }

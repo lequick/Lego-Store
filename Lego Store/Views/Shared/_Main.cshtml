@@ -12,15 +12,15 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container ">
    
     <div class="row">
-        <div  class="col-lg-10  border">
-            <h1>Lego Store</h1> 
+        <div  class="col-lg-10 opaci  ">
+            Lego STore
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-10 border">
+        <div class="col-lg-10 border opaci">
             @{
                 Html.RenderAction("Menu", "Data");
             }
@@ -28,8 +28,8 @@
     </div>
    
        
-        <div class="row">
-            <div class="border col-lg-10 mainbox ">
+        <div class="row border">
+            <div class="col-lg-10 mainbox opaci ">
                 
                                 @RenderBody()
                    
